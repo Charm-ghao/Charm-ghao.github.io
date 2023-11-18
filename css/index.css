@@ -524,13 +524,13 @@ blockquote p {
 .side-card p,
 .side-card li {
   font-size: 1.4rem;
-  line-height: 1.5;
+  line-height: 2;
 }
 .author-avatar {
   display: table-cell;
   vertical-align: top;
-  width: 80px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
 }
 .author-avatar img {
   width: 100%;
@@ -546,10 +546,10 @@ blockquote p {
 }
 .author-discrip h3 {
   margin: 0px;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 .author-discrip .author-bio {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   margin: 0.3rem 0;
 }
 .author-links {
@@ -569,7 +569,7 @@ blockquote p {
   padding-top: 2px;
   padding-bottom: 2px;
   color: inherit;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 .author-links button {
@@ -742,7 +742,7 @@ blockquote p {
     color: #000;
   }
   .author-discrip .author-bio {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-top: 8px;
     margin-bottom: 10px;
   }
