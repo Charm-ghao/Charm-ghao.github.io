@@ -1,20 +1,20 @@
 .page pre,
 .page .highlight {
   overflow: auto;
-  margin: 0 0 1rem;
+  margin: 0 0 0rem;
   padding: 0;
   background: #f8f8f8;
   color: #525252;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   clear: both;
 }
 figure.highlight {
   position: relative;
 }
 .page .highlight code {
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0rem;
   word-wrap: break-word;
-  font-size: 1.6rem !important;
+  font-size: 1.4rem !important;
 }
 .page pre {
   padding: 10px 20px;
@@ -240,16 +240,16 @@ body {
   color: #494e52;
   font-size: 1.8em;
   line-height: 1.5;
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  font-family: "Arial", Microsoft YaHei, SimHei, sans-serif;
   scroll-behavior: smooth;
 }
 a,
 span,
 .btn {
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  font-family: "Arial", Microsoft YaHei, SimHei, sans-serif;
 }
 img {
-  max-width: 100%;
+  max-width: 200%;
 }
 blockquote {
   position: relative;
@@ -429,8 +429,8 @@ blockquote p {
   margin-left: auto;
   margin-right: auto;
   clear: both;
-  margin-top: 3.2rem;
-  margin-bottom: 6.4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
   padding-left: 1.6rem;
   padding-right: 1.6rem;
   animation: intro 0.3s both;
@@ -486,7 +486,7 @@ blockquote p {
   text-align: right;
 }
 .page article code {
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  font-family: "Arial", Microsoft YaHei, SimHei, sans-serif;
   padding: 0.2rem 0.3rem;
   background: rgba(27,31,35,0.05);
   word-wrap: break-word;
@@ -519,12 +519,12 @@ blockquote p {
   padding-left: 10px;
 }
 .side-card img {
-  width: 100%;
+  width: 200%;
 }
 .side-card p,
 .side-card li {
   font-size: 1.4rem;
-  line-height: 2;
+  line-height: 1.5;
 }
 .author-avatar {
   display: table-cell;
@@ -533,8 +533,8 @@ blockquote p {
   height: 40px;
 }
 .author-avatar img {
-  width: 100%;
-  max-width: 110px;
+  width: 200%;
+  max-width: 200px;
   border-radius: 0%;
 }
 .author-discrip {
@@ -546,7 +546,7 @@ blockquote p {
 }
 .author-discrip h3 {
   margin: 0px;
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 .author-discrip .author-bio {
   font-size: 1.2rem;
@@ -569,7 +569,7 @@ blockquote p {
   padding-top: 2px;
   padding-bottom: 2px;
   color: inherit;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 .author-links button {
@@ -731,7 +731,7 @@ blockquote p {
     text-align: center;
   }
   .author-avatar img {
-    padding: 5px;
+    padding: 1px;
     border: 1px solid #f2f3f3;
   }
   .author-discrip {
@@ -742,9 +742,9 @@ blockquote p {
     color: #000;
   }
   .author-discrip .author-bio {
-    font-size: 1.8rem;
-    margin-top: 8px;
-    margin-bottom: 10px;
+    font-size: 1.285rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
   .author-links {
     display: block;
