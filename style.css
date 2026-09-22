@@ -1,0 +1,122 @@
+:root{--ink:#192d40;--muted:#5c6b79;--blue:#214e73;--line:#dce3e9;--accent:#a34736;--paper:#fff;--bg:#f4f7fa}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:30px}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.85}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}.site-header{background:#fff;border-top:4px solid var(--blue);border-bottom:1px solid var(--line)}.header-inner{max-width:1240px;margin:auto;min-height:100px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 32px}.brand{display:flex;gap:14px;align-items:center;color:var(--ink);font-size:20px;font-weight:650;line-height:1.4}.brand:hover{text-decoration:none}.brand small{display:block;font-size:12px;letter-spacing:2px;color:var(--muted);font-weight:400;margin-top:5px}.monogram{display:grid;place-items:center;width:44px;height:44px;background:var(--blue);color:white;font:24px Georgia,serif}nav{display:flex;gap:28px;flex-wrap:wrap}nav a{font-size:15px;color:var(--muted);padding:10px 0}nav a[aria-current]{color:var(--blue);box-shadow:0 2px var(--accent)}.layout{max-width:1240px;margin:48px auto 72px;padding:0 32px;display:grid;grid-template-columns:244px minmax(0,1fr);gap:56px;align-items:start}.profile{background:white;border:1px solid var(--line)}.portrait{display:block;width:100%;height:260px;object-fit:cover;object-position:center 24%}.profile-body{padding:22px}.profile-name{font:23px Georgia,serif;margin:0}.motto{font:italic 14px/1.7 Georgia,serif;color:var(--muted);margin:10px 0 24px}.place{font-size:14px;margin:0;color:var(--muted)}.email{font-size:14px;overflow-wrap:anywhere}.socials{margin-top:24px;padding-top:16px;border-top:1px solid var(--line)}.socials a{display:flex;justify-content:space-between;font-size:14px;padding:5px 0}.socials span{color:var(--muted)}main{min-width:0}.page-heading{border-bottom:1px solid var(--line);padding:0 0 30px;margin-bottom:30px}.eyebrow{font-size:12px;letter-spacing:2px;font-weight:650;color:var(--accent);margin-bottom:14px}h1{font-size:40px;line-height:1.35;font-weight:650;letter-spacing:1px;margin:0 0 16px}h1 span{font:32px Georgia,serif;letter-spacing:0;display:inline-block;margin-left:14px}.position{color:var(--muted);font-size:15px;margin:0}.topics{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}.topics span{border:1px solid #cedae4;padding:3px 11px;font-size:13px;background:#edf3f7;color:var(--blue)}article{overflow-wrap:anywhere}article h2,article h3{font-size:23px;line-height:1.5;margin:34px 0 18px;font-weight:650}article h3:first-child{margin-top:0}article h4{font-size:19px;line-height:1.6;margin:30px 0 14px;color:var(--blue)}article h5{font-size:17px;margin:26px 0 10px}article p{margin:12px 0 18px}article hr{border:0;border-top:1px solid var(--line);margin:30px 0}article li{margin-bottom:10px}article ul,article ol{padding-left:24px}.intro-grid{display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:28px}.contact-card{background:#eaf0f5;border-top:3px solid var(--blue);padding:14px 18px;align-self:start;font-size:14px}.contact-card p{margin:0 0 16px}.contact-card p:last-child{margin-bottom:0}.contact-card strong{font-size:13px;color:var(--muted)}.table-wrap{overflow-x:auto;max-width:100%;border:1px solid var(--line);background:#fff}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.65}th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#eaf0f5;font-weight:600}tr:last-child td{border-bottom:0}.publication article ol{padding-left:28px}.publication article li{padding:8px 0 24px 8px;margin:0 0 18px;border-bottom:1px solid var(--line)}.publication article li::marker{font:16px Georgia,serif;color:var(--muted)}.publication article h4{font:30px Georgia,serif;padding:8px 0}.publication article a{white-space:nowrap;font-size:14px}.network article p{background:white;border-left:3px solid var(--blue);padding:22px 26px;line-height:2.3}.dailylife article p{line-height:2.1}.skip{position:absolute;left:16px;top:-100px;background:white;padding:12px;z-index:20}.skip:focus{top:10px}footer{max-width:1176px;margin:0 auto;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;padding:24px 0 36px;color:var(--muted);font-size:13px}footer span:nth-child(2){font-style:italic}@media(min-width:1100px){.profile{position:sticky;top:28px}}@media(max-width:1000px){.layout{gap:32px;grid-template-columns:210px minmax(0,1fr)}.intro-grid{grid-template-columns:1fr}.contact-card{display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}.contact-card p:first-child{grid-column:1/-1}h1 span{display:block;margin:10px 0 0}.portrait{height:230px}footer{margin:0 32px}}@media(max-width:680px){.header-inner{padding:18px 22px;display:block}nav{gap:0;justify-content:space-between;margin-top:20px}nav a{font-size:14px}.layout{display:flex;flex-direction:column;margin:28px auto 40px;padding:0 22px;gap:30px}.profile{width:100%;display:flex;align-items:center;background:transparent;border:0;border-bottom:1px solid var(--line);padding-bottom:24px;gap:20px}.portrait{width:100px;height:122px;flex-shrink:0}.profile-body{padding:0;min-width:0}.profile-name{font-size:21px}.motto{margin:4px 0 8px}.socials{display:none}.place{display:none}main{width:100%}h1{font-size:34px}h1 span{font-size:26px;display:block;margin:8px 0 0}.eyebrow{font-size:12px;letter-spacing:1px}.position{font-size:14px}.page-heading{padding-bottom:24px}.topics{gap:6px}.topics span{font-size:12px}article h3{font-size:22px}.contact-card{grid-template-columns:1fr}footer{margin:0 22px;flex-wrap:wrap}footer span:nth-child(2){display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{.site-header,.profile,footer,.skip{display:none}.layout{display:block;margin:0;padding:0}body{background:white}}
+@media(max-width:680px){.profile{display:grid;grid-template-columns:100px minmax(0,1fr);gap:4px 20px}.profile-body{display:contents}.portrait{grid-row:1/5}.profile-name,.motto,.email{grid-column:2}.socials{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-column:1/-1;gap:4px 18px;margin-top:18px;width:100%}.socials a{font-size:13px;gap:4px}.socials span{display:none}}
+/* 科研日常：数据入口与精简工具 */
+.dailylife article>section>h2{margin-top:0;margin-bottom:20px}.data-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.data-category{background:#fff;border:1px solid var(--line);border-top:3px solid var(--blue);padding:22px 20px}.dailylife .data-label{font-size:12px;letter-spacing:1.4px;line-height:1.5;color:var(--muted);margin:0 0 8px}.dailylife .data-category h3{font-size:21px;margin:0 0 20px}.data-link{display:block;padding:16px 0;border-top:1px solid var(--line)}.data-link strong{display:block;font-size:15px;line-height:1.6}.data-link strong span{font-weight:400;color:var(--muted)}.data-link>span{display:block;margin-top:7px;color:var(--muted);font-size:14px;line-height:1.7}.data-link:hover strong{text-decoration:underline}.data-link:hover{text-decoration:none}.research-tools{margin-top:38px;padding-top:28px;border-top:1px solid var(--line)}.tool-links{list-style:none;display:flex;flex-wrap:wrap;gap:12px 28px;padding:0!important}.tool-links li{display:flex;gap:10px;align-items:baseline;font-size:15px}.tool-links li span{font-size:14px;color:var(--muted)}@media(max-width:1050px){.data-grid{grid-template-columns:1fr}.data-category{padding:20px}.data-link{padding:12px 0}.dailylife .data-category h3{margin-bottom:14px}}@media(max-width:680px){.tool-links{display:grid;gap:8px}}
+
+/* 轻量紧凑排版：英文 Segoe UI，中文优先苹方 / 等线 / 微软雅黑。 */
+:root {
+  --font-text: "Segoe UI", "PingFang SC", "DengXian", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+}
+body { font-family: var(--font-text); font-size: .9375rem; font-weight: 400; line-height: 1.7; }
+.header-inner { min-height: 76px; padding: 12px 28px; }
+.brand { font-size: 1.125rem; gap: 10px; }
+.brand small { margin-top: 3px; letter-spacing: 1px; }
+.monogram { width: 38px; height: 38px; font: 600 1.25rem/1 var(--font-text); }
+nav { gap: 24px; }
+nav a { padding: 7px 0; }
+.layout { grid-template-columns: 220px minmax(0,1fr); gap: 32px; margin: 28px auto 40px; padding: 0 28px; }
+.portrait { height: 224px; }
+.profile-body { padding: 16px; }
+.profile-name { font: 600 1.125rem/1.4 var(--font-text); }
+.motto { font: 400 .875rem/1.5 var(--font-text); margin: 6px 0 14px; }
+.socials { margin-top: 16px; padding-top: 10px; }
+.socials a { padding: 3px 0; }
+.page-heading { padding-bottom: 18px; margin-bottom: 20px; }
+.eyebrow { letter-spacing: 1.1px; margin-bottom: 8px; line-height: 1.5; }
+h1 { font-size: 1.625rem; line-height: 1.4; letter-spacing: 0; margin-bottom: 8px; font-weight: 500; }
+h1 span { font: 400 1.375rem/1.4 var(--font-text); margin-left: 12px; }
+.position { line-height: 1.6; }
+.topics { margin-top: 14px; gap: 6px; }
+.topics span { font-size: .875rem; padding: 2px 9px; }
+article { overflow-wrap: break-word; }
+article h2, article h3 { font-size: 1.125rem; line-height: 1.5; margin: 20px 0 10px; font-weight: 500; }
+article h4 { font-size: 1.0625rem; line-height: 1.5; margin: 18px 0 10px; }
+article h5 { font-size: 1rem; margin: 16px 0 8px; }
+article p { margin: 8px 0 12px; }
+article hr { margin: 16px 0; }
+article ul, article ol { margin: 8px 0 14px; padding-left: 22px; }
+article li { margin-bottom: 5px; }
+.intro-grid { grid-template-columns: minmax(0,1fr) 206px; gap: 22px; }
+.contact-card { padding: 12px 14px; line-height: 1.6; }
+.contact-card p { margin: 0 0 10px; }
+.contact-card strong { font-size: .875rem; }
+table { font-size: .875rem; line-height: 1.55; font-variant-numeric: tabular-nums; }
+th, td { padding: 9px 12px; }
+.publication article li { padding: 2px 0 6px 4px; margin-bottom: 4px; line-height: 1.6; }
+.publication article li::marker { font: 400 .875rem var(--font-text); }
+.publication article h4 { font: 500 1.125rem/1.5 var(--font-text); padding: 0; margin: 20px 0 10px; }
+.publication article li em { font-style: normal; }
+.dailylife article p { line-height: 1.6; }
+.dailylife article>section>h2 { margin-bottom: 14px; }
+.data-grid { gap: 12px; }
+.data-category { padding: 16px; }
+.dailylife .data-category h3 { font-size: 1.125rem; margin-bottom: 12px; }
+.dailylife .data-label { letter-spacing: .8px; margin-bottom: 6px; }
+.data-link { padding: 12px 0; }
+.data-link:last-child { padding-bottom: 0; }
+.data-link>span { margin-top: 4px; line-height: 1.55; }
+.research-tools { margin-top: 24px; padding-top: 18px; }
+.tool-links { gap: 8px 22px; }
+footer { padding: 18px 0 24px; }
+@media (max-width: 1000px) {
+  .layout { grid-template-columns: 200px minmax(0,1fr); gap: 24px; }
+  .intro-grid { grid-template-columns: 1fr; gap: 14px; }
+  h1 span { margin: 6px 0 0; }
+}
+@media (max-width: 680px) {
+  .header-inner { padding: 12px 18px; }
+  nav { margin-top: 12px; gap: 0; }
+  .layout { margin: 20px auto 28px; padding: 0 18px; gap: 20px; }
+  .profile { grid-template-columns: 84px minmax(0,1fr); gap: 3px 16px; padding-bottom: 16px; }
+  .portrait { width: 84px; height: 104px; }
+  .profile-body { padding: 0; }
+  .profile-name { font-size: 1.0625rem; }
+  .motto { margin: 3px 0 5px; font-size: .8125rem; }
+  .socials { margin-top: 12px; padding-top: 8px; gap: 3px 14px; }
+  .socials a { font-size: .875rem; }
+  h1 { font-size: 1.5rem; }
+  h1 span { font-size: 1.25rem; margin: 5px 0 0; }
+  .page-heading { padding-bottom: 14px; margin-bottom: 16px; }
+  .topics { margin-top: 12px; }
+  article h3 { font-size: 1.125rem; }
+  .contact-card { gap: 6px 14px; }
+  .data-category { padding: 14px 16px; }
+  footer { margin: 0 18px; }
+}
+@media print { .layout { display: block; margin: 0; padding: 0; } }
+
+/* 统一弱化强调，保留姓名和层级的辨识度。 */
+.brand, .profile-name { font-weight: 500; }
+article strong, article b { font-weight: 600; }
+article h4, article h5 { font-weight: 500; font-size: 1rem; }
+.publication article li b { font-weight: 400; }
+.publication article li strong { font-weight: 600; }
+.publication article li { line-height: 1.65; }
+.eyebrow { font-weight: 400; letter-spacing: .6px; }
+.position, nav a { font-size: .875rem; }
+.data-link strong { font-weight: 500; font-size: .9375rem; }
+.dailylife .data-category h3 { font-size: 1.0625rem; font-weight: 500; }
+/* 科研数据：按类别分组，每个数据集占一行。 */
+.data-section + .data-section { margin-top: 20px; }
+.dailylife .data-section h3 { margin: 0; padding: 8px 12px; background: #eaf0f5; font-size: 1rem; font-weight: 500; }
+.dataset-list { list-style: none; margin: 0!important; padding: 0!important; }
+.dataset-row { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(0,1fr); gap: 12px 24px; align-items: center; padding: 10px 12px; margin: 0!important; border-bottom: 1px solid var(--line); }
+.dataset-name { min-width: 0; }
+.dataset-name a { font-size: .9375rem; font-weight: 500; }
+.dataset-name a>span { color: var(--muted); font-size: .8125rem; }
+.dataset-description { display: block; color: var(--muted); font-size: .8125rem; margin-top: 2px; }
+.dataset-meta { font-size: .875rem; line-height: 1.6; color: var(--muted); font-variant-numeric: tabular-nums; }
+.access-status { display: inline-block; margin-left: 8px; padding: 1px 7px; border: 1px solid #d9c6a7; border-radius: 3px; color: #785520; background: #faf4e9; font-size: .8125rem; }
+@media(max-width:680px) { .dataset-row { grid-template-columns: 1fr; gap: 4px; padding: 10px 8px; }.dataset-description { display: inline; margin-left: 8px; }.data-section + .data-section { margin-top: 16px; } }
+.publication article li em.citation-journal { font-style: italic; font-weight: 400; }
+.news-with-image { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 16px; align-items: center; margin: 12px 0; }
+.news-with-image p { margin: 0; }
+.news-thumbnail { display: block; line-height: 0; }
+.news-thumbnail img { display: block; width: 200px; height: auto; border: 1px solid var(--line); border-radius: 3px; background: #fff; }
+@media(max-width:480px) { .news-with-image { grid-template-columns: 1fr; gap: 10px; } }
+
+.education-table th, .education-table td { font-weight: 600; padding: 5px 12px; line-height: 1.5; }
+
+
+
+.honors-table th, .honors-table td { padding: 5px 12px; line-height: 1.5; }
