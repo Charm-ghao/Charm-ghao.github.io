@@ -131,3 +131,7 @@ article h4, article h5 { font-weight: 500; font-size: 1rem; }
 .profile-contact-lines { font-size: 14px; overflow-wrap: anywhere; }
 
 @media (max-width: 680px) { .profile-contact-lines { grid-column: 2; } }
+/* Hide the header branding and footer motto across the main pages. */
+.site-header .brand { display: none; }
+.header-inner { justify-content: flex-end; }
+footer > span:nth-child(2) { display: none; }
