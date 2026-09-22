@@ -128,3 +128,6 @@ article h4, article h5 { font-weight: 500; font-size: 1rem; }
   .profile-contact p { margin: 0; }
   .profile-contact p:first-child { grid-column: 1 / -1; }
 }
+.profile-contact-lines { font-size: 14px; overflow-wrap: anywhere; }
+
+@media (max-width: 680px) { .profile-contact-lines { grid-column: 2; } }
