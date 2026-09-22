@@ -115,11 +115,11 @@ article h4, article h5 { font-weight: 500; font-size: 1rem; }
 .news-thumbnail img { display: block; width: 200px; height: auto; border: 1px solid var(--line); border-radius: 3px; background: #fff; }
 @media(max-width:480px) { .news-with-image { grid-template-columns: 1fr; gap: 10px; } }
 
-.education-table th, .education-table td { font-weight: 600; padding: 5px 12px; line-height: 1.5; }
 
 
 
-.honors-table th, .honors-table td { padding: 5px 12px; line-height: 1.5; }
+
+
 .intro-grid.intro-full { grid-template-columns: minmax(0, 1fr); }
 .profile-contact { display: block; margin-top: 14px; padding: 12px 0 0; background: transparent; border-top: 1px solid var(--line); overflow-wrap: anywhere; }
 .profile-contact strong { font-weight: 600; }
@@ -148,3 +148,8 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 .dailylife .dataset-description { margin-top: 0; }
 .dailylife .data-section + .data-section { margin-top: 12px; }
 @media(max-width:680px) { .dailylife .dataset-row { padding: 5px 8px; } }
+
+.profile-table { font-size: .875rem; line-height: 1.5; }
+.profile-table th, .profile-table td { padding: 5px 12px; }
+.profile-table th { font-weight: 600; }
+.profile-table td { font-weight: 400; }
