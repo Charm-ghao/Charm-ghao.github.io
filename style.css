@@ -139,3 +139,12 @@ footer > span:nth-child(2) { display: none; }
 :root { --bg: #fff; --paper: #fff; }
 body, .site-header, .profile, .table-wrap, th { background: #fff; }
 .dailylife .data-section h3, .data-category, .contact-card { background: #fff; }
+/* Bright blue links on the white background. */
+a, nav a, nav a[aria-current], .socials a { color: #0070e0; }
+a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underline; }
+/* Compact spacing for research data rows. */
+.dailylife .dataset-row { padding: 5px 12px; row-gap: 2px; line-height: 1.45; }
+.dailylife .dataset-meta { line-height: 1.45; }
+.dailylife .dataset-description { margin-top: 0; }
+.dailylife .data-section + .data-section { margin-top: 12px; }
+@media(max-width:680px) { .dailylife .dataset-row { padding: 5px 8px; } }
