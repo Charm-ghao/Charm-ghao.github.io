@@ -102,7 +102,7 @@ article h4, article h5 { font-weight: 500; font-size: 1rem; }
 .dataset-list { list-style: none; margin: 0!important; padding: 0!important; }
 .dataset-row { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(0,1fr); gap: 12px 24px; align-items: center; padding: 10px 12px; margin: 0!important; border-bottom: 1px solid var(--line); }
 .dataset-name { min-width: 0; }
-.dataset-name a { font-size: .9375rem; font-weight: 500; }
+.dataset-name a { font-size: .9375rem; font-weight: 400; }
 .dataset-name a>span { color: var(--muted); font-size: .8125rem; }
 .dataset-description { display: block; color: var(--muted); font-size: .8125rem; margin-top: 2px; }
 .dataset-meta { font-size: .875rem; line-height: 1.6; color: var(--muted); font-variant-numeric: tabular-nums; }
