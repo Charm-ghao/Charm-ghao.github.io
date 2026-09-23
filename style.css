@@ -150,7 +150,7 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 @media(max-width:680px) { .dailylife .dataset-row { padding: 5px 8px; } }
 
 .home .table-wrap { display: block; width: 100%; max-width: 100%; margin-left: 0; margin-right: 0; }
-.profile-table { table-layout: fixed; width: 100%; min-width: 480px; font-size: .875rem; line-height: 1.5; }
+.profile-table { table-layout: fixed; width: 100%; min-width: 820px; font-size: .875rem; line-height: 1.5; }
 .profile-table th, .profile-table td { padding: 5px 12px; }
 .profile-table th { font-weight: 600; }
 .profile-table td { font-weight: 400; }
@@ -168,9 +168,8 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 
 .visitor-stats a { cursor: default; text-decoration: none; }
 .visitor-use-fallback #mapmyvisitors-widget { display: none !important; } .visitor-fallback[hidden], .visitor-fallback img[hidden] { display: none !important; } .visitor-fallback p { font-size: 12px; color: var(--muted); text-align: center; margin: 5px 0; }
-/* Shared column geometry for Education and Work Experience. */
-.career-table { table-layout: fixed; width: 100%; min-width: 480px; }
-.career-table .career-role { width: 85px; }
-.career-table .career-period { width: 162px; }
-.career-table th:last-child, .career-table td:last-child { white-space: nowrap; }
-.career-table th:nth-child(2), .career-table td:nth-child(2) { overflow-wrap: normal; word-break: normal; }
+/* Identical column boundaries across Education, Work Experience and Awards. */
+.profile-table .profile-col-first { width: 112px; }
+.profile-table .profile-col-middle { width: auto; }
+.profile-table .profile-col-last { width: 208px; }
+.profile-table th, .profile-table td { white-space: nowrap; overflow-wrap: normal; word-break: normal; }
