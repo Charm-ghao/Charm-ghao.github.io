@@ -167,3 +167,9 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 
 .visitor-stats a { cursor: default; text-decoration: none; }
 .visitor-use-fallback #mapmyvisitors-widget { display: none !important; } .visitor-fallback[hidden], .visitor-fallback img[hidden] { display: none !important; } .visitor-fallback p { font-size: 12px; color: var(--muted); text-align: center; margin: 5px 0; }
+/* Shared column geometry for Education and Work Experience. */
+.career-table { table-layout: fixed; width: 100%; min-width: 480px; }
+.career-table .career-role { width: 85px; }
+.career-table .career-period { width: 162px; }
+.career-table th:last-child, .career-table td:last-child { white-space: nowrap; }
+.career-table th:nth-child(2), .career-table td:nth-child(2) { overflow-wrap: normal; word-break: normal; }
