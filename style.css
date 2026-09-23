@@ -153,3 +153,14 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 .profile-table th, .profile-table td { padding: 5px 12px; }
 .profile-table th { font-weight: 600; }
 .profile-table td { font-weight: 400; }
+/* Responsive visitor map; count is supplied by MapMyVisitors. */
+.visitor-stats { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); min-width: 0; width: 100%; }
+.visitor-stats h2 { margin: 0 0 8px; font-size: 14px; font-weight: 500; }
+.visitor-stats img { display: block; max-width: 100%; height: auto; }
+.visitor-stats #mapmyvisitors-widget { max-width: 100%; min-height: 0; }
+.visitor-stats .mapmyvisitors-map-container { display: flex; flex-direction: column; }
+.visitor-stats .mapmyvisitors-map { order: 0; max-width: 100%; }
+.visitor-stats .mapmyvisitors-visitors { order: 1; display: block !important; position: static !important; background: #fff; color: var(--muted) !important; padding: 5px 0; }
+.visitor-stats .mapmyvisitors-date { order: 2; }
+.visitor-details { margin: 6px 0 0; text-align: center; font-size: 12px; }
+@media(max-width:680px) { .visitor-stats { grid-column: 1 / -1; } }
