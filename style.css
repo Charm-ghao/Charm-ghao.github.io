@@ -149,7 +149,8 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 .dailylife .data-section + .data-section { margin-top: 12px; }
 @media(max-width:680px) { .dailylife .dataset-row { padding: 5px 8px; } }
 
-.profile-table { font-size: .875rem; line-height: 1.5; }
+.home .table-wrap { display: block; width: 100%; max-width: 100%; margin-left: 0; margin-right: 0; }
+.profile-table { table-layout: fixed; width: 100%; min-width: 480px; font-size: .875rem; line-height: 1.5; }
 .profile-table th, .profile-table td { padding: 5px 12px; }
 .profile-table th { font-weight: 600; }
 .profile-table td { font-weight: 400; }
