@@ -166,3 +166,4 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 @media(max-width:680px) { .visitor-stats { grid-column: 1 / -1; } }
 
 .visitor-stats a { cursor: default; text-decoration: none; }
+.visitor-use-fallback #mapmyvisitors-widget { display: none !important; } .visitor-fallback[hidden], .visitor-fallback img[hidden] { display: none !important; } .visitor-fallback p { font-size: 12px; color: var(--muted); text-align: center; margin: 5px 0; }
