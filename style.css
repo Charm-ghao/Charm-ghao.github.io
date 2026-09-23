@@ -161,6 +161,8 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 .visitor-stats .mapmyvisitors-map-container { display: flex; flex-direction: column; }
 .visitor-stats .mapmyvisitors-map { order: 0; max-width: 100%; }
 .visitor-stats .mapmyvisitors-visitors { order: 1; display: block !important; position: static !important; background: #fff; color: var(--muted) !important; padding: 5px 0; }
-.visitor-stats .mapmyvisitors-date { order: 2; }
+.visitor-stats .mapmyvisitors-date { display: none !important; }
 .visitor-details { margin: 6px 0 0; text-align: center; font-size: 12px; }
 @media(max-width:680px) { .visitor-stats { grid-column: 1 / -1; } }
+
+.visitor-stats a { cursor: default; text-decoration: none; }
