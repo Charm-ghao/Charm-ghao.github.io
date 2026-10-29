@@ -175,3 +175,5 @@ a:hover, nav a:hover, .socials a:hover { color: #0056b3; text-decoration: underl
 .profile-table th, .profile-table td { white-space: nowrap; overflow-wrap: normal; word-break: normal; }
 .profile-contact-lines .cv-links { margin: 6px 0 0; font-size: 14px; line-height: 1.7; }
 .profile-contact-lines .cv-links span { color: var(--muted); }
+
+.home .research-note { color: #476985; font-size: inherit; font-weight: 600; font-style: italic; }
